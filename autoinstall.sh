@@ -3,7 +3,7 @@
 # Author: ttbye
 #########################################################################
 #!/usr/bin/env bash
-
+yum -y install gcc &&
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel &&
 wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz &&
 mkdir -p /usr/local/python3.8 &&
